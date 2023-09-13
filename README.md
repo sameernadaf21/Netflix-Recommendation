@@ -1,5 +1,5 @@
-# Netflix-Recommendation
-# Movie Recommendation System
+
+# Netflix Recommendation System
 
 This repository contains a movie recommendation system implemented in Python. The system is designed to recommend movies based on user input and utilizes cosine similarity to find similar movies in a given dataset.
 
