@@ -10,7 +10,6 @@ This repository contains a movie recommendation system implemented in Python. Th
 - [Usage](#usage)
 - [Dataset](#dataset)
 - [Algorithm](#algorithm)
-- [License](#license)
 
 ## Overview
 
@@ -28,7 +27,24 @@ You can install the required packages using the following command:
 ```bash
 pip install -r requirements.txt
 ```
+## Usage
+To use the Movie Recommendation System, follow these steps:
+1. Clone this repository to your local machine:
 
+   ```bash
+   git clone https://github.com/your-username/movie-recommendation.git
+   ```
+2. Navigate to the project directory:
+    ```bash
+    cd movie-recommendation
+     ```
+3. Make sure you have the dataset file ('dataset.csv') in the same directory as the script.
+4. Run the recommendation script:
+    ```bash
+    python movie_recommendation.py
+     ```
+## Dataset
+The movie recommendation system uses a dataset ('dataset.csv') containing information about movies. The dataset includes columns such as 'id,' 'title,' 'overview,' 'genre,' and 'vote_average.' You can replace this dataset with your own movie dataset, ensuring that it has similar columns.
 ## Algorithm
 
 The recommendation system uses the following algorithm:
