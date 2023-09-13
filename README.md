@@ -1,5 +1,6 @@
 
 # Netflix Recommendation System
+![Netflix Logo]([url_to_netflix_logo.png](https://images.pexels.com/photos/4009402/pexels-photo-4009402.jpeg?auto=compress&cs=tinysrgb&w=600))
 
 This repository contains a movie recommendation system implemented in Python. The system is designed to recommend movies based on user input and utilizes cosine similarity to find similar movies in a given dataset.
 
