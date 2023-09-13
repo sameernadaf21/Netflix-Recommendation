@@ -28,3 +28,22 @@ You can install the required packages using the following command:
 ```bash
 pip install -r requirements.txt
 
+## Algorithm
+
+The recommendation system uses the following algorithm:
+
+1. **Load and preprocess the movie dataset:**
+   - Import the dataset and perform initial data exploration.
+   - Clean and select relevant features.
+
+2. **Text Vectorization and Cosine Similarity Calculation:**
+   - Combine 'overview' and 'genre' information to create 'tags.'
+   - Convert text data into numerical vectors using CountVectorizer.
+   - Calculate cosine similarity between movie vectors.
+
+3. **Movie Recommendation Function:**
+   - Create a function to recommend movies based on user input.
+   - Find close matches to the user's input movie title.
+   - Sort movies by similarity and display the top 5 recommendations.
+
+
