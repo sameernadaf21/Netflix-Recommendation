@@ -1,0 +1,10 @@
+# Movie Recommendation System Requirements
+
+# Specify Python version (optional)
+python>=3.6
+
+# Required Python packages
+pandas>=1.0.0
+scikit-learn>=0.24.0
+numpy>=1.19.0
+fuzzywuzzy>=0.18.0
